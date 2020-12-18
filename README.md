@@ -1,8 +1,17 @@
-translated from matlab to python
+Python code for densely computing local Fourier HOG features, translated from matlab.
 
+
+# Overview
+Circular Fourier-HOG (or CHOG) Features are one of the 2D object detection methods based on Fourier transformed HOG (Histogram of Oriented Gradients). Its most important characteristic is rotation invariance and can detects object orientations as well as positions. 
+
+Once you teach an object of a particular direction, CHOG can detect the same or similar objects of any other direction as well. (For example, if the input teacher image were an arrow heading to right, CHOG can also detect arrow heading to left, up, down, and other directions. As only one or few directions are sufficient, you don’t have to prepare many rotated teacher images.) 
+Note that even though its detection capability is contrast and scale dependent, i.e., arrows of different brightness/color or far different size cannot be detected.
+
+From these characteristics, CHOG is suitable for biological microscope images or aerial images, which often include rotated objects of nearly the same scale.
 
 
 ---------------------
+# Original Copyright and disclaimer statement:
 Copyright (c) 2011, Henrik Skibbe and Marco Reisert
 All rights reserved.
 

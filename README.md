@@ -10,6 +10,27 @@ Note that even though its detection capability is invariant for rotation, is dep
 From these characteristics, CHOG is suitable for biological microscope images or aerial images, which often include rotated objects of nearly the same scale.
 
 
+
+
+# Tutorials/demos
+
+To run the most simple demo, first download ‘CHOG’ file. It includes all you need to run a demo -- .py scripts (main functions for calculating CHOG features) and cta_demo.ipynb, a teacher image, and a test image.
+Just run cta_demo.ipynb on jupyter notebook or on jupyter lab.
+
+Other demo scripts are in the demo_* file.
+
+
+
+# Usage
+
+To use this CHOG object detection code, You  have to have teacher image and teacher labels for objects you want to detect. Each teacher label must include object position as x,y-coordinate and direction (object angle) in complex form.
+
+If you need to transform object orientation from degree/radian to complex number, see demo_pombe.ipynb.
+
+## parameter settings
+To make the best use of CHOG features, you have to properly set “w_func” parameter, depending on the object size you want to detect.
+
+
 ---------------------
 # Original Copyright and disclaimer statement:
 Copyright (c) 2011, Henrik Skibbe and Marco Reisert

@@ -18,10 +18,10 @@ From these characteristics, CHOG is suitable for biological microscope images or
 
 # Demos
 
-To run the most simple demo, first download ‘CHOG’ file. It includes all you need to run a demo -- .py scripts (main functions for calculating CHOG features) and cta_demo.ipynb, a teacher image, and a test image.
+To run the most simple demo, download (or git clone) all the files. It includes all you need to run a demo -- .py scripts (main functions for calculating CHOG features) and cta_demo.ipynb, a teacher image, and a test image.
 Just run cta_demo.ipynb on jupyter notebook or on jupyter lab.
 
-Other demo scripts are in the demo_* file.
+Other demo scripts are upcoming.
 
 
 # Usage
@@ -30,7 +30,7 @@ To use this CHOG object detection code, You  have to have teacher image and teac
 
 
 ## Object orientation in complex form
-If you need to transform object orientation from degree/radian to complex number, see demo_pombe.ipynb.
+If you need to transform object orientation from degree/radian to complex number, see demo_pombe.ipynb (upcoming).
 
 
 ## Parameter settings
@@ -70,13 +70,14 @@ either expressed or implied, of the FreeBSD Project.
 
 The following code for densely computing local Fourier HOG features
 is based on our paper: 
+
 #
 Henrik Skibbe and Marco Reisert 
 "Circular Fourier-HOG Features for Rotation Invariant Object Detection in Biomedical Images"
 in Proceedings of the IEEE International Symposium on Biomedical Imaging 2012 (ISBI 2012), Barcelona 
-#
+
 You can find a free copy here :
 http://skl220b.ukl.uni-freiburg.de/mr/authoring/mitarbeiter/aktuelle/skibbe/CHOGFilterPaper_en.pdf
-#
+
 If you use our functions or partially make use of our code then please cite this paper.
 

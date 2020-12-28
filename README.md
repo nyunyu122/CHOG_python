@@ -14,6 +14,10 @@ From these characteristics, CHOG is suitable for biological microscope images or
 ![demo5_trainImg_withLabel](https://user-images.githubusercontent.com/63389728/103191964-4f19cb80-491a-11eb-9c9d-8d841a4b991d.png)
 
 
+![demo5_detected](https://user-images.githubusercontent.com/63389728/103192180-18908080-491b-11eb-85f3-fa657fc931ff.png)
+
+
+
 # Demos
 
 To run the most simple demo, first download ‘CHOG’ file. It includes all you need to run a demo -- .py scripts (main functions for calculating CHOG features) and cta_demo.ipynb, a teacher image, and a test image.

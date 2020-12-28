@@ -7,13 +7,13 @@ Circular Fourier-HOG (or CHOG) features are one of the 2D object detection metho
 CHOG object detection method makes use of supervised learning. To use this method, you need teacher labels (positions and orientations) of destined objects.
 You don't have to prepare rotated object labels, though. Given an object label of a particular direction, CHOG can detect the same or similar objects of any other direction as well. (For example, if the input teacher image were an arrow heading to right, CHOG can also detect arrow heading to left, up, down, and other directions. Only one or a few directions are sufficient.) 
 
+![demo5_trainImg_withLabel](https://user-images.githubusercontent.com/63389728/103191964-4f19cb80-491a-11eb-9c9d-8d841a4b991d.png)
+
 Note that even though its detection capability is invariant for rotation, is dependent on contrast and scale (i.e., arrows of different brightness/colors or of different sizes cannot be detected).
 
 From these characteristics, CHOG is suitable for biological microscope images or aerial images, which often include rotated objects of nearly the same size.
 
-![demo5_trainImg_withLabel](https://user-images.githubusercontent.com/63389728/103191964-4f19cb80-491a-11eb-9c9d-8d841a4b991d.png)
-
-![demo5_detected](https://user-images.githubusercontent.com/63389728/103192363-c00db300-491b-11eb-835a-38360320deb0.png)
+![demo5_detected](https://user-images.githubusercontent.com/63389728/103192462-14b12e00-491c-11eb-99b4-e85d0e3e5c60.png)
 
 
 # Demos

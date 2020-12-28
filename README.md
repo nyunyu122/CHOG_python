@@ -13,7 +13,7 @@ From these characteristics, CHOG is suitable for biological microscope images or
 
 ![demo5_trainImg_withLabel](https://user-images.githubusercontent.com/63389728/103191964-4f19cb80-491a-11eb-9c9d-8d841a4b991d.png)
 
-![demo5_detected](https://user-images.githubusercontent.com/63389728/103192261-6c9b6500-491b-11eb-8ad1-8263a7f8cda1.png)
+![demo5_detected](https://user-images.githubusercontent.com/63389728/103192363-c00db300-491b-11eb-835a-38360320deb0.png)
 
 
 # Demos

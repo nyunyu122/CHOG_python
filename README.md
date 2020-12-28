@@ -11,6 +11,8 @@ Note that even though its detection capability is invariant for rotation, is dep
 
 From these characteristics, CHOG is suitable for biological microscope images or aerial images, which often include rotated objects of nearly the same size.
 
+![demo5_trainImg_withLabel](https://user-images.githubusercontent.com/63389728/103191964-4f19cb80-491a-11eb-9c9d-8d841a4b991d.png)
+
 
 # Demos
 

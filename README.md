@@ -1,44 +1,7 @@
 Python code for densely computing local Fourier HOG features, translated from H.Skibbe's original matlab code.
 
 
-# Overview
-Circular Fourier-HOG (or CHOG) features are one of the 2D object detection methods based on Fourier transformed HOG (Histogram of Oriented Gradients). Object detection method using CHOG features was first published in 2012 by H.Skibbe and M.Reisert (see below for more information). Its most important characteristics are 'rotation invariance' and detecting object orientations as well as positions.
 
-CHOG object detection method makes use of supervised learning. To use this method, you need teacher labels (positions and orientations) of destined objects.
-You don't have to prepare rotated object labels, though. Given an object label of a particular direction, CHOG can detect the same or similar objects of any other direction as well. (For example, if the input teacher image were an arrow heading to right, CHOG can also detect arrow heading to left, up, down, and other directions. Only one or a few directions are sufficient.) 
-
-![demo5_trainImg_withLabel](https://user-images.githubusercontent.com/63389728/103191964-4f19cb80-491a-11eb-9c9d-8d841a4b991d.png)
-
-Note that even though its detection capability is invariant for rotation, is dependent on contrast and scale (i.e., arrows of different brightness/colors or of different sizes cannot be detected).
-
-From these characteristics, CHOG is suitable for biological microscope images or aerial images, which often include rotated objects of nearly the same size.
-
-![demo5_detected](https://user-images.githubusercontent.com/63389728/103192462-14b12e00-491c-11eb-99b4-e85d0e3e5c60.png)
-
-
-# Demos
-
-To run the most simple demo, download (or git clone) all the files. It includes all you need to run a demo -- .py scripts (main functions for calculating CHOG features) and cta_demo.ipynb, a teacher image, and a test image.
-Just run cta_demo.ipynb on jupyter notebook or on jupyter lab.
-
-Other demo scripts are upcoming.
-
-
-# Usage
-
-To use this CHOG object detection code, You  have to have teacher image and teacher labels for objects you want to detect. Each teacher label must include object position as x,y-coordinate and direction (object angle) in complex form.
-
-
-## Object orientation in complex form
-If you need to transform object orientation from degree/radian to complex number, see demo_pombe.ipynb (upcoming).
-
-
-## Parameter settings
-To make the best use of CHOG features, you have to properly set “w_func” parameter, depending on the object size you want to detect.
-
-
-
----------------------
 # Original Copyright and disclaimer statement:
 Copyright (c) 2011, Henrik Skibbe and Marco Reisert
 All rights reserved.

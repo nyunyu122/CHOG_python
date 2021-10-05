@@ -1,8 +1,21 @@
 Python code for densely computing local Fourier HOG features, translated from H.Skibbe's original matlab code.
 
+# Reference
+
+1. Henrik Skibbe and Marco Reisert </br>"Circular Fourier-HOG Features for Rotation Invariant Object Detection in Biomedical Images"
+in Proceedings of the IEEE International Symposium on Biomedical Imaging 2012 (ISBI 2012), Barcelona 
+
+2. Kun Liu, Henrik Skibbe, Thorsten Schmidt, Thomas Blein, Klaus Palme, Thomas Brox & Olaf Ronneberger </br>"Rotation-Invariant HOG Descriptors Using Fourier Analysis in Polar and Spherical Coordinates", International Journal of Computer Vision, 106 (3) (2014), pp. 342-364
 
 
-# Original Copyright and disclaimer statement:
+
+# Original matlab code
+
+https://bitbucket.org/skibbe/fourierchog/src/master/
+
+
+
+# Copyright and disclaimer statement of original matlab code:
 Copyright (c) 2011, Henrik Skibbe and Marco Reisert
 All rights reserved.
 
